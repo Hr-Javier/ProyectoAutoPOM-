@@ -2,6 +2,9 @@ package starter.actions;
 
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.core.steps.UIInteractionSteps;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import starter.pageobjects.SearchForm;
 
 import java.time.Duration;
 import java.util.List;
